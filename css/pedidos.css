@@ -1,0 +1,48 @@
+
+* {
+    box-sizing: border-box;
+}
+.row{
+  display:flex;
+  flex-direction: column;
+}
+.deactive{
+  display:none;
+}
+.titulo h1{
+  text-align: center;
+}
+.pedidos{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.pedidos .ped{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items:center;
+  padding: 0px;
+  background: orange;
+  border-bottom: 5px solid rgba(36, 36, 36, 0.88);
+  border-radius: 10px;
+  font-size: 20px;
+}
+.pedidos .ped .contenedor{
+  margin: 10px;
+  padding: 10px;
+
+
+}
+.pedidos .ped .icon{
+  font-size: 30px;
+  color:green;
+}
+.caja_detalle{
+
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background: #f2f2f2;
+  margin: 0px;
+}
